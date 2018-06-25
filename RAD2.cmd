@@ -25,7 +25,7 @@ drvAsynIPPortConfigure("IPPort1", "127.0.0.1:17002 UDP")
 
 # Records for the two probes connected to the controller
 
-dbLoadRecords("database/Thermo-FHT6020.db", "PORT = IPPort1, PREFIX = RAD:THERMO")
+dbLoadRecords("database/Thermo-FHT6020.db", "PORT = IPPort1, PREFIX = RAD:THERMO:REDIS")
 
 # Effectively initializes the IOC
 
